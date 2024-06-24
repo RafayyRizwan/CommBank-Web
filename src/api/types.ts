@@ -63,6 +63,12 @@ export enum ApplicationStatus {
   Approved,
   Rejected,
 }
+// types.ts
 
+export interface Goal {
+  // ...
+
+  icon: string | null
+}
 export type ModalContent = Goal
 export type ModalType = 'Goal'
